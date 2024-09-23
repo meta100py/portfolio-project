@@ -67,7 +67,15 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-
+#work {
+  font-size: 40px;
+}
+#contact-part {
+  font-size: 30px;
+}
+#photo {
+  margin: 145px 10px 20px 10px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 44px !important;
@@ -82,5 +90,8 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  #work {
+    font-size: 20px;
   }
 }
